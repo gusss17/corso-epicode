@@ -1,0 +1,58 @@
+.redbutton{
+    background-color: red;
+    border: none;
+    padding: 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    margin-top: 45px;
+    display:none ;
+    
+}
+.card-container{
+    position: relative;
+    width: 400px;
+}
+
+.card-container img{
+    width: 100%;
+}
+
+.card-container:hover .redbutton{
+    display: inline-block;
+}
+
+.westwig{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 40px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    bottom: 31px;
+    left: 30px;
+    display: none;
+}
+
+.card-container:hover .westwig{
+    display: inline-block;
+
+} 
+
+.upload{
+    border: none;
+    width: 60px;
+    position: absolute;
+    bottom: 30px;
+    border-radius: 50px;
+    left: 235px;
+    display: none;
+}
+
+.card-container:hover .upload{
+    display: block;
+}
