@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricerca Lavoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h2>Trova un lavoro!</h2>
+
+        <label for="jobTitle">Titolo lavorativo:</label>
+        <input type="text" id="jobTitle" placeholder="Es. Web Dev">
+
+        <label for="jobLocation">Location:</label>
+        <input type="text" id="jobLocation" placeholder="Es. IT">
+    </div>
+
+    <button onclick="handleSearch()">Cerca</button>
+
+    <h3>Risultati</h3>
+    <ul id="risultati"></ul>
+
+    <script src="scaricabile.js"></script>
+</body>
+
+</html>
