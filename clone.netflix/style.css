@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #141414;
+    color: white;
+    
+}
+
+.nav-bar img{
+    height: 60px;
+    width: auto;
+}
+
+.profile img{
+    height: 35px;
+    width: 40px;
+    border-radius: 3px;
+}
+.tv-shows{
+    margin-left: 35px;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 0;
+    border: white   2px;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.carousel{
+    margin-left: 45px;
+}
+
+.footer-container{
+    margin: 580px;
+    margin-top: 150px;
+    opacity: 50%;
+}
+.col-3 {
+ margin-left:  -10px;
+}
+
+.movie-card {
+    position: relative;
+    overflow: visible; 
+}
+
+.movie-card img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+    transform-origin: center center;
+}
+
+.movie-card:hover img {
+    transform: scale(1.5); 
+    transform-origin: top center; 
+}
+
+.btn-footer{
+    background-color: #141414;
+    color: white;
+    border: 1px;
+    border-color: white;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: white;  
+}
+
+
