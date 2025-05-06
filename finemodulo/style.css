@@ -1,0 +1,39 @@
+/* sfondo e spaziatura generale */
+body {
+    background: #f0f2f5;
+    padding-bottom: 50px;
+  }
+  
+  /* navbar personalizzata */
+  .navbar-custom {
+    background: linear-gradient(90deg, #c74949, #c9462f);
+  }
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  /* card home */
+  .card-home {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform .2s;
+  }
+  .card-home:hover {
+    transform: translateY(-5px);
+  }
+  .card-home img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  /* card backoffice */
+  .card-back {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+  }
+  
